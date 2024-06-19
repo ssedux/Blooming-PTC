@@ -3,4 +3,8 @@
     <string name="underlined_text"><u>¿Ha olvidado su contraseña?</u></string>
     <string name="underlined_text2"><u>¿No tienes una cuenta? Registrate</u></string>
     <string name="underlined_text3"><u>¿Ya tiene una cuenta? Iniciar sesión</u></string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

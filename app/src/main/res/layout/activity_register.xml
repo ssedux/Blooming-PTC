@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FD95A0"
-    tools:context=".Registrer">
+    tools:context=".Register">
 
     <TextView
         android:id="@+id/textView1_registrer"
@@ -92,7 +92,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView1"
         android:layout_width="39dp"
         android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -236,7 +236,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView4"
         android:layout_width="49dp"
         android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -268,7 +268,7 @@
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView5"
         android:layout_width="39dp"
         android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -281,7 +281,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView6"
         android:layout_width="49dp"
         android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -294,7 +294,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView7"
         android:layout_width="49dp"
         android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"

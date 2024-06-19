@@ -13,7 +13,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.UserProfileChangeRequest
 import proyecto.expotecnica.blooming.BaseDeDatos.IngresarUserFirebase
 import proyecto.expotecnica.blooming.Encriptado.generateKey
 import proyecto.expotecnica.blooming.Encriptado.encrypt
@@ -21,7 +20,6 @@ import proyecto.expotecnica.blooming.Encriptado.decrypt
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import proyecto.expotecnica.blooming.BaseDeDatos.UsuarioFirebase
 
 class sing_in : AppCompatActivity() {
     private lateinit var firebaseAuth: FirebaseAuth
@@ -38,7 +36,6 @@ class sing_in : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
-        // Generar la clave si no existe
         generateKey()
 
         val RecuperarContra = findViewById<TextView>(R.id.lbl_ContraOlvidada_Sing_In)
@@ -55,7 +52,7 @@ class sing_in : AppCompatActivity() {
         }
 
         Registrarse.setOnClickListener {
-            val intent = Intent(this, Registrer::class.java)
+            val intent = Intent(this, Register::class.java)
             startActivity(intent)
             finish()
         }
@@ -70,7 +67,6 @@ class sing_in : AppCompatActivity() {
                         if (task.isSuccessful) {
                             val signInMethods = task.result?.signInMethods
                             if (signInMethods.isNullOrEmpty()) {
-                                // El usuario no existe, proceder con el registro
                                 firebaseAuth.createUserWithEmailAndPassword(email, password)
                                     .addOnCompleteListener { createUserTask ->
                                         if (createUserTask.isSuccessful) {
@@ -158,10 +154,8 @@ class sing_in : AppCompatActivity() {
             val userInUserTable = IngresarUserFirebase.getUserFromUserTable(username)
             withContext(Dispatchers.Main) {
                 if (userInFirebase == null && userInUserTable == null) {
-                    // El usuario no existe en ninguna de las dos tablas
                     promptForProfilePicture(username, email)
                 } else {
-                    // El usuario ya existe
                     Toast.makeText(this@sing_in, "User already exists. Please choose another username.", Toast.LENGTH_SHORT).show()
                 }
             }
@@ -173,11 +167,9 @@ class sing_in : AppCompatActivity() {
             .setTitle("Profile Picture")
             .setMessage("Would you like to upload a profile picture?")
             .setPositiveButton("Upload") { _, _ ->
-                // Lógica para subir una imagen
                 uploadProfilePicture(username, email)
             }
             .setNegativeButton("Skip") { _, _ ->
-                // Usar imagen predeterminada
                 saveUserWithDefaultProfilePicture(username, email)
             }
             .create()
@@ -192,7 +184,6 @@ class sing_in : AppCompatActivity() {
     }
 
     private fun saveUserWithDefaultProfilePicture(username: String, email: String) {
-        // Guardar el usuario con la imagen predeterminada
         saveUserWithProfilePicture(username, email, "path/to/default/picture")
     }
 
@@ -204,7 +195,6 @@ class sing_in : AppCompatActivity() {
             IngresarUserFirebase.insertUser(encryptedToken, email, username, iv, profilePicturePath)
             withContext(Dispatchers.Main) {
                 Toast.makeText(this@sing_in, "User registered successfully", Toast.LENGTH_SHORT).show()
-                // Navegar a la siguiente actividad o actualizar la UI
             }
         }
     }

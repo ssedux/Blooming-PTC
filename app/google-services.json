@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205845154655",
+    "project_id": "blooming-1c6bf",
+    "storage_bucket": "blooming-1c6bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205845154655:android:f46d070be702cff748c4ea",
+        "android_client_info": {
+          "package_name": "proyecto.expotecnica.blooming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjLiEkaWzqLmhQUefPWklGDYm1RLIH_Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

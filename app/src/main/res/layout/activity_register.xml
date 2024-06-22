@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FD95A0"
-    tools:context=".Registrer">
+    tools:context=".Register">
 
     <EditText
         android:id="@+id/txt_Apellido_Registrer"
@@ -27,6 +27,67 @@
         app:layout_constraintVertical_bias="0.349"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
+<<<<<<< HEAD:app/src/main/res/layout/activity_registrer.xml
+=======
+    <TextView
+        android:id="@+id/textView5_registrer"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Rectángulo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643"
+        app:srcCompat="@drawable/email"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="49dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355"
+        app:srcCompat="@drawable/key"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3_registrer"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Rectángulo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444"
+        tools:ignore="MissingConstraints" />
+
+>>>>>>> a9ed971835a80fc6f1f55770185271a20957e334:app/src/main/res/layout/activity_register.xml
     <EditText
         android:id="@+id/txt_Nombre_Registrer"
         android:layout_width="274dp"
@@ -84,6 +145,54 @@
         app:layout_constraintVertical_bias="0.644"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
+<<<<<<< HEAD:app/src/main/res/layout/activity_registrer.xml
+=======
+    <TextView
+        android:id="@+id/textView4_registrer"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Rectángulo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7_registrer"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Rectángulo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="49dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739"
+        app:srcCompat="@drawable/key"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+>>>>>>> a9ed971835a80fc6f1f55770185271a20957e334:app/src/main/res/layout/activity_register.xml
     <EditText
         android:id="@+id/txt_ConfirmarContra_Registrer"
         android:layout_width="274dp"
@@ -103,6 +212,48 @@
         app:layout_constraintVertical_bias="0.843"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
+<<<<<<< HEAD:app/src/main/res/layout/activity_registrer.xml
+=======
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/email"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="49dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548"
+        app:srcCompat="@drawable/key"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="49dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843"
+        app:srcCompat="@drawable/key"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+>>>>>>> a9ed971835a80fc6f1f55770185271a20957e334:app/src/main/res/layout/activity_register.xml
     <EditText
         android:id="@+id/txt_Telefono_Registrer"
         android:layout_width="274dp"

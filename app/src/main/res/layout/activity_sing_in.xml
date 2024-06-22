@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Iniciar Sesión"
-        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,210 +24,173 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btn_EnviarCodigo_Password_Recovery1"
-        android:layout_width="370dp"
-        android:layout_height="70dp"
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
         android:backgroundTint="#FFFFFF"
-        android:text="Ingresar"
-        android:textColor="#171616"
+        android:elevation="4dp"
+        android:text="Iniciar Sesion"
+        android:textColor="#F38F9A"
         android:textColorLink="#000000"
-        app:cornerRadius="20dp"
+        android:textSize="24sp"
+        app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645"
+        app:layout_constraintVertical_bias="0.469"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_Google_Sing_In"
-        android:layout_width="370dp"
-        android:layout_height="70dp"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
         android:backgroundTint="#FFFFFF"
-        android:text="        Ingresar con Google"
-        android:textColor="#171616"
-        app:cornerRadius="20dp"
+        android:elevation="4dp"
+        android:text="    Ingresar con Google"
+        android:textColor="#F38F9A"
+        android:textSize="24sp"
+        app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.765"
+        app:layout_constraintVertical_bias="0.582"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="38dp"
-        android:layout_height="35dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.265"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754"
-        app:srcCompat="@drawable/google"
-        tools:ignore="MissingConstraints" />
+    <!-- Nombre -->
 
     <TextView
         android:id="@+id/lbl_Registar_Sing_In"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/underlined_text2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82"
-        tools:ignore="MissingConstraints" />
-
-    <!-- Nombre -->
-
-    <TextView
-        android:id="@+id/textView1_registrer"
-        android:layout_width="370dp"
-        android:layout_height="70dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
         android:textColor="#FFFFFF"
+        android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195"
+        app:layout_constraintVertical_bias="0.635"
         tools:ignore="MissingConstraints" />
+
 
     <EditText
         android:id="@+id/txt_Correo_Sing_In"
-        android:layout_width="274dp"
-        android:layout_height="36dp"
-        android:background="@drawable/rectangle"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
         android:backgroundTint="@android:color/transparent"
         android:ems="10"
+        android:fitsSystemWindows="false"
         android:hint="Email"
         android:inputType="text"
         android:minHeight="48dp"
+        android:shadowColor="#FFFFFF"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21"
-        tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView2_registrer"
-        android:layout_width="370dp"
-        android:layout_height="70dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
         android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.317"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/lbl_ContraOlvidada_Sing_In"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/underlined_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.224"
+        tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/txt_Contra_Sing_In"
-        android:layout_width="274dp"
-        android:layout_height="36dp"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
         android:background="@drawable/rectangle"
         android:backgroundTint="@android:color/transparent"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="text"
         android:minHeight="48dp"
+        android:shadowColor="#FFFFFF"
         android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328"
+        app:layout_constraintVertical_bias="0.316"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="49dp"
-        android:layout_height="33dp"
+    <TextView
+        android:id="@+id/lbl_ContraOlvidada_Sing_In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/underlined_text"
+        android:textColor="#FFFFFF"
+        android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33"
-        app:srcCompat="@drawable/key"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="39dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213"
-        app:srcCompat="@drawable/email"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="413dp"
-        android:layout_height="72dp"
-        android:layout_gravity="center"
-        android:background="@drawable/rectangulo_con_degradado"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.372"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="96dp"
-        android:layout_height="23dp"
+        android:layout_width="126dp"
+        android:layout_height="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884"
+        app:layout_constraintVertical_bias="0.74"
         app:srcCompat="@drawable/loginblooming" />
 
-    <Button
-        android:id="@+id/btn_RegistrseGoogle_Sing_In"
-        android:layout_width="370dp"
-        android:layout_height="70dp"
-        android:text="Registrarse con Google"
-        app:cornerRadius="20dp"
+    <TextView
+        android:id="@+id/tv_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="para continuar"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
+        app:layout_constraintVertical_bias="0.144" />
+
+    <TextView
+        android:id="@+id/tv_O"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----   O   ----"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Google_Sing_In"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
+
+    <ImageView
+        android:id="@+id/imgNubeLogin"
+        android:layout_width="414dp"
+        android:layout_height="182dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nubesingin" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

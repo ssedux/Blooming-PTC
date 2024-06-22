@@ -29,7 +29,7 @@ class Password_recovery1 : AppCompatActivity() {
         }
 
         val CampoCorreo = findViewById<EditText>(R.id.txt_Correo_Password_Recovery1)
-        val BotonEnviar = findViewById<Button>(R.id.btn_EnviarCodigo_Password_Recovery1)
+        val BotonEnviar = findViewById<Button>(R.id.btnIniciarSesion)
         val RecuerdaSuContra = findViewById<TextView>(R.id.lbl_RecuerdaContra_Password_Recovery1)
 
         BotonEnviar.setOnClickListener {

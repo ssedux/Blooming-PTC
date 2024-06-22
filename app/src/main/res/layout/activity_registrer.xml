@@ -8,54 +8,6 @@
     android:background="#FD95A0"
     tools:context=".Registrer">
 
-    <TextView
-        android:id="@+id/textView1_registrer"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView6_registrer"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView2_registrer"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342"
-        tools:ignore="MissingConstraints" />
-
     <EditText
         android:id="@+id/txt_Apellido_Registrer"
         android:layout_width="274dp"
@@ -74,64 +26,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.349"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView5_registrer"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.648"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="39dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643"
-        app:srcCompat="@drawable/email"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="49dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355"
-        app:srcCompat="@drawable/key"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView3_registrer"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444"
-        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/txt_Nombre_Registrer"
@@ -171,19 +65,6 @@
         app:layout_constraintVertical_bias="0.738"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="39dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442"
-        app:srcCompat="@drawable/email"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
     <EditText
         android:id="@+id/txt_Correo_Registrer"
         android:layout_width="274dp"
@@ -203,51 +84,6 @@
         app:layout_constraintVertical_bias="0.644"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
 
-    <TextView
-        android:id="@+id/textView4_registrer"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView7_registrer"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rectangle"
-        android:gravity="center"
-        android:text="Rectángulo"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="49dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739"
-        app:srcCompat="@drawable/key"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
     <EditText
         android:id="@+id/txt_ConfirmarContra_Registrer"
         android:layout_width="274dp"
@@ -266,45 +102,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.843"
         tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="39dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25"
-        app:srcCompat="@drawable/email"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="49dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548"
-        app:srcCompat="@drawable/key"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="49dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.843"
-        app:srcCompat="@drawable/key"
-        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <EditText
         android:id="@+id/txt_Telefono_Registrer"
@@ -348,7 +145,11 @@
         android:id="@+id/tv_title_Registrer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:shadowColor="#FFFFFF"
         android:text="Registrarse"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -356,7 +157,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038"
+        app:layout_constraintVertical_bias="0.044"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -364,7 +165,11 @@
         android:layout_width="323dp"
         android:layout_height="81dp"
         android:fontFamily="@font/inter_semibold"
+        android:shadowColor="#FFFFFF"
         android:text="Revisa la bandeja de entrada de tu correo e introduce el código de 6 dígitos que se te ha enviado para verificar que eres tú quien quiere restablecer la contraseña de tu cuenta.&quot;"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -45,7 +45,6 @@ class sing_in : AppCompatActivity() {
         val Registrarse = findViewById<TextView>(R.id.lbl_Registar_Sing_In)
         val emailEditText = findViewById<EditText>(R.id.txt_Correo_Sing_In)
         val passwordEditText = findViewById<EditText>(R.id.txt_Contra_Sing_In)
-        val registerButton = findViewById<Button>(R.id.btn_RegistrseGoogle_Sing_In)
         val loginButton = findViewById<Button>(R.id.btn_Google_Sing_In)
 
         RecuperarContra.setOnClickListener {
@@ -60,37 +59,7 @@ class sing_in : AppCompatActivity() {
             finish()
         }
 
-        registerButton.setOnClickListener {
-            val email = emailEditText.text.toString()
-            val password = passwordEditText.text.toString()
 
-            if (email.isNotEmpty() && password.isNotEmpty()) {
-                firebaseAuth.fetchSignInMethodsForEmail(email)
-                    .addOnCompleteListener { task ->
-                        if (task.isSuccessful) {
-                            val signInMethods = task.result?.signInMethods
-                            if (signInMethods.isNullOrEmpty()) {
-                                // El usuario no existe, proceder con el registro
-                                firebaseAuth.createUserWithEmailAndPassword(email, password)
-                                    .addOnCompleteListener { createUserTask ->
-                                        if (createUserTask.isSuccessful) {
-                                            showUserInputDialog(email)
-                                        } else {
-                                            Toast.makeText(this@sing_in, "Registration failed: ${createUserTask.exception?.message}", Toast.LENGTH_SHORT).show()
-                                        }
-                                    }
-                            } else {
-                                // El usuario ya existe
-                                Toast.makeText(this, "User already exists with this email", Toast.LENGTH_SHORT).show()
-                            }
-                        } else {
-                            Toast.makeText(this, "Failed to check user: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
-                        }
-                    }
-            } else {
-                Toast.makeText(this, "Please enter email and password", Toast.LENGTH_SHORT).show()
-            }
-        }
 
         loginButton.setOnClickListener {
             val email = emailEditText.text.toString()

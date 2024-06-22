@@ -7,6 +7,57 @@
     android:layout_height="match_parent"
     android:background="#FD95A0"
     tools:context=".Register">
+<<<<<<< HEAD
+=======
+
+    <TextView
+        android:id="@+id/textView1_registrer"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Rectángulo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6_registrer"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Rectángulo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2_registrer"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="Rectángulo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342"
+        tools:ignore="MissingConstraints" />
+>>>>>>> a9ed971835a80fc6f1f55770185271a20957e334
 
     <EditText
         android:id="@+id/txt_Apellido_Registrer"

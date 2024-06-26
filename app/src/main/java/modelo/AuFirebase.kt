@@ -1,0 +1,4 @@
+package modelo
+
+class AuFirebase {
+}

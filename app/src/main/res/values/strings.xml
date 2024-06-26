@@ -7,4 +7,6 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_activity_dashboard_employed">Dashboard_Employed</string>
+    <string name="title_activity_admin">Admin</string>
 </resources>

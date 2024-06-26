@@ -8,7 +8,7 @@
     android:layout_margin="20dp"> <!-- Márgenes para centrado y separación -->
 
     <ImageView
-        android:id="@+id/imgPerfil_ven"
+        android:id="@+id/ImgPerfil_reg"
         android:layout_width="191dp"
         android:layout_height="196dp"
         android:layout_gravity="center"
@@ -16,7 +16,7 @@
         android:src="@drawable/profile_user" />
 
     <Button
-        android:id="@+id/btn_subir_imagen"
+        android:id="@+id/btn_subir_imagen_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
@@ -24,7 +24,7 @@
         android:text="Subir Imagen" />
 
     <Button
-        android:id="@+id/btn_CrearCuenta_Emer_Register"
+        android:id="@+id/btn_CrearCuenta_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
@@ -32,7 +32,7 @@
         android:text="Registrar" />
 
     <Button
-        android:id="@+id/btn_cancelar"
+        android:id="@+id/btn_cancelar_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"

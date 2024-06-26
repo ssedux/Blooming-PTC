@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  
+
+    <item
+        android:id="@+id/navigation_caja"
+        android:icon="@drawable/ic_home"
+        android:title="Caja" />
+
+    <item
+        android:id="@+id/navigation_inventario"
+        android:icon="@drawable/ic_inventory"
+        android:title="Inventario" />
+
+    <item
+        android:id="@+id/navigation_pedidos_Empleados"
+        android:icon="@drawable/ic_profile"
+        android:title="Pedidos" />
+
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/ic_profile"
+        android:title="Perfil" />
+
 </menu>

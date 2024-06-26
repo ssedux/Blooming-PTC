@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071"
+        app:layout_constraintVertical_bias="0.06"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -78,57 +78,6 @@
         tools:ignore="MissingConstraints" />
 
 
-    <EditText
-        android:id="@+id/txt_Correo_Sing_In"
-        android:layout_width="310dp"
-        android:layout_height="45dp"
-        android:backgroundTint="@android:color/transparent"
-        android:ems="10"
-        android:fitsSystemWindows="false"
-        android:hint="Email"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:shadowColor="#FFFFFF"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textColorHighlight="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textColorLink="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224"
-        tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/txt_Contra_Sing_In"
-        android:layout_width="310dp"
-        android:layout_height="45dp"
-        android:background="@drawable/rectangle"
-        android:backgroundTint="@android:color/transparent"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:shadowColor="#FFFFFF"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textColorHighlight="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textColorLink="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
-        tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck" />
-
     <TextView
         android:id="@+id/lbl_ContraOlvidada_Sing_In"
         android:layout_width="wrap_content"
@@ -138,10 +87,10 @@
         android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372"
+        app:layout_constraintVertical_bias="0.379"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -191,6 +140,45 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/nubesingin" />
+
+    <EditText
+        android:id="@+id/txt_Correo_Sing_In"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:drawableTint="#00C53232"
+        android:ems="10"
+        android:foregroundTint="#000000"
+        android:hint="Correo"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#DFD9D9"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txt_Contra_Sing_In"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text"
+        android:shadowColor="#E8DADA"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
